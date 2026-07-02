@@ -1,4 +1,4 @@
-# vsfs-ck: Very Simple File System Consistency Checker
+# VSFS Recovery Utility: Very Simple File System Consistency Checker
 
 A low-level storage architecture utility written entirely in C that functions as a custom `fsck` (File System Consistency Checker) tool. Engineered for an Ext2-inspired Unix-like disk image configuration (`VSFS`), this tool parses direct binary blocks, evaluates metadata structure health profiles, validates space allocation bitmasks, and reconstructs corrupt storage states on the fly with automatic repair mechanisms.
 
